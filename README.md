@@ -1,6 +1,7 @@
 # Proposta
 ## Arquitetura
 Para as duas opções proponho um servidor para a comunicação com o banco de dados, foi adicionado um banco de dados a partir do momento que foi mencionado 'Armazenar os dados cadastrais de cada usuário, empresa, etc.'
+
 O elemento 'Servidor' pode ser dividido em dois microsserviços: 
 1. Processamento dos dados 
 2. Interface do banco de dados. 
@@ -31,12 +32,17 @@ Contras:
  - Pra funcionar offline precisa garantir a sincronização das configurações de pesos, o que aumenta bastante a complexidade de desenvolvimento
 ## Linguagens (frameworks)
 Mobile - React Native
+
 Plataforma Web - Javascript -> React JS, NextJS
+
 Servidor - Node -> Express
+
 Banco de Dados - PostgreSQL / MongoDB
+
 Infraestrutura - AWS ou DigitalOcean
 ## Considerações
 Não inclui na proposta as ferramentas de SEO (Search Engine Optimization) nem análise de tráfego (Analytics).
+
 Não inclui na proposta manutenção do sistema após entregue, a menos que seja acordado em ambas as partes.
 
 A finalização do projeto se dá na entrega de todos os requisitos documentados pelo próprio contratante.
